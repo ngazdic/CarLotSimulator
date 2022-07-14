@@ -7,7 +7,7 @@ namespace CarLotSimulator
 
         public Car()
         {
-           
+
 
         }
 

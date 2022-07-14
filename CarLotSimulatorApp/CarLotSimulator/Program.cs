@@ -44,6 +44,8 @@ namespace CarLotSimulator
             car2.MakeHonkNoise();
             car2.IsDriveable = true;
 
+           
+
 
             car3.Year = 1998;
             car3.Make = "Mitsubishi";
@@ -90,6 +92,8 @@ namespace CarLotSimulator
             foreach (var item in thisIsCarLot.ListOfCars)
             {
                 Console.WriteLine(item.Year);
+                Console.WriteLine(item.Make);
+                Console.WriteLine(item.Model);
             }
 
 
