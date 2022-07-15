@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CarLotSimulator
 {
-    public class CarLot
+    public class CarLot : Car
     {
         public CarLot()
         {
@@ -14,7 +14,9 @@ namespace CarLotSimulator
 
 
 
+        public static int numberOfCars;
 
+        
 
     }
 }

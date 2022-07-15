@@ -22,8 +22,12 @@ namespace CarLotSimulator
             var car1 = new Car();
             var car2 = new Car();
             var car3 = new Car();
-
+            Console.WriteLine(CarLot.numberOfCars);
             var thisIsCarLot = new CarLot();
+            
+
+
+
 
 
             car1.Year = 1998;
@@ -74,7 +78,7 @@ namespace CarLotSimulator
 
             var car5 = new Car( "Mercedes","gclass" );
 
-
+            Console.WriteLine(CarLot.numberOfCars);
 
 
 

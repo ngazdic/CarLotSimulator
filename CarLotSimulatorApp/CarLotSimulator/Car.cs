@@ -7,7 +7,7 @@ namespace CarLotSimulator
 
         public Car()
         {
-
+            CarLot.numberOfCars++;
 
         }
 
@@ -16,6 +16,7 @@ namespace CarLotSimulator
         {
             Make = make;
             Model = model;
+            CarLot.numberOfCars++;
 
         }
 
